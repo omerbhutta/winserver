@@ -1,5 +1,13 @@
-# Free Windows Server 2022 With RDP For Lifetime
-This repository is all about getting free windows server 2022 with rdp using github jobs & ngrok tunnel. In this github repositoyr i added the step by step guide to have a free windows vsp server thorugh github and accessing it via remote desktop connection.
+# Set Up a Free Windows Server with RDP 
+After extensive research, I discovered reverse tunneling tools that can help in this situation. One such tool is "NGROK".
+
+### What is NGROK? 
+> Ngrok is a multiplatform tunnelling, reverse proxy software that establishes secure tunnels from a public endpoint such as internet to a locally running network service while capturing all traffic for detailed inspection and replay.
+>Enter ngrok, a very cool, lightweight tool that creates a secure tunnel on your local machine along with a public URL you can use for browsing your local site. When ngrok is running, it listens on the same port that you're local web server is running on and proxies external requests to your local machine.
+
+However, there are few limitations in NGROK as well. The biggest one is that its not completely free. And if you're using the free version of NGROK, the tunnel link expires after every 8 hours, and you'll have to restart the NGROK service again manually, and again the tunnel link will change. 
+
+This repository provides a step-by-step guide to obtaining a free Windows Server with RDP using GitHub Jobs and an NGROK tunnel. Follow the instructions to set up a free Windows VPS server through GitHub and access it via Remote Desktop Connection.
 
 ## Steps To Create Windows Server
 * Sign Up a GitHub Account : https://github.com/
@@ -38,4 +46,4 @@ jobs:
 * Run The WorkFlow and take note of credentials (runneradmin:P@ssw0rd!)
 * Get the ngrok endpoint url and use it as ip or address in Remote Desktop Connection with credentials
 
-## Thanks!
+If you have a better solution, your contributions are welcomed. :)
