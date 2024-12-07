@@ -43,7 +43,7 @@ jobs:
       run: .\ngrok\ngrok.exe tcp 3389
 
 ```
-* Run The WorkFlow and take note of credentials (runneradmin:P@ssw0rd!)
+* Run The WorkFlow and take note of credentials (runneradmin:Coff33Blue$)
 * Get the ngrok endpoint url and use it as ip or address in Remote Desktop Connection with credentials
 
 If you have a better solution, your contributions are welcomed. :)
